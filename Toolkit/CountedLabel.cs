@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Toolkit
 {
+
+    // The read-only bindable property
+    // Suppose you’re working with an application in which it’s convenient to know the number of words in the text that is displayed by a Label element.
+    // Perhaps you’d like to build that facility right into a class that derives from Label.Let’s call this new class CountedLabel.
     public class CountedLabel : Label
     {
         static readonly BindablePropertyKey WordCountKey =
